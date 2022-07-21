@@ -2,10 +2,13 @@
 A DAC is a device that converts a digital signal to an analog signal. They can be made with different architectures/topologies, and for this project was used the R-2R topology.
 
 ## Usage
+1- Upload the project folder on the IDE (mbed online or Keil studio) and identify the board so some config files that are specific for each microcontroller can be set.\
+2- Build and load the folder into the board.\
+3- Assembly the hardware and connect to the board.\
 The interface of the DAC consists of 3 buttons, one changes the wave form, altering between them in a cyclical manner, the other two control the frequency, one rises and the other lowers it.
 
 ## Materials used:
--	Nucleo F103RB (because of the simplicity os the project, any board with ST microcontroller should work fine)
+-	Nucleo F401RE (because of the simplicity os the project, any board with ST microcontroller should work fine)
 -	Mbed online IDE
 -	Mbed library 
 -	3x push buttons (to control de outputs of the DAC)
